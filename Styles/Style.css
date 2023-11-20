@@ -1,0 +1,68 @@
+      body {
+        font-family: roboto;
+      }
+      h1 {
+            font-family:playfair Display;
+            text-align: center; font-size: 50px;
+            font-weight: 120;margin: 0%; padding-bottom: 0%
+        }
+        .header {
+            background-color: rgb(0, 0, 0); 
+        padding: 0.5px; margin-top: 2px; display: flex; justify-content: space-between;
+        }
+        .header-list {
+            display: flex; list-style-type: none;
+                gap: 25px;justify-content: left;flex-direction: row;
+                align-content: center; color: white;
+        }
+        a, button :visited{
+            color:white; text-decoration: none;
+        }
+        .Art-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px; row-gap: 5px;
+        }
+        .Art-preview {
+            border-width: 2px; border-style: solid;
+            border-color: black;padding: 4px;
+        }
+
+        .Art-thumbnail {
+            width: 100%; height: 120px;
+            object-fit: cover;
+        }
+        .Art-title {
+            margin: 2px;
+        }
+        .Art-details {
+            color: rgb(86, 86, 86);
+            font-size: small; margin: 0;
+        }
+        audio {
+             margin-top: 10px; justify-content: center;
+             height: 20px
+        }
+        dt {
+            color: rgb(165, 121, 9); text-decoration: underline;
+        }
+        dd {
+            display: grid; width: 95%;
+        }
+        .foot {
+            display: flex; justify-content: center;color: white;
+            background-color: rgb(165, 121, 9); align-items: center; height: 30px;
+        }
+        .contact-options{
+            display: grid; grid-template-columns: 1fr 1fr;
+        }
+        .icons {
+            display: grid; justify-content: center; gap: 15px;
+            grid-template-columns: 15px 15px 15px 15px
+        }
+        .contact-style {
+            display: grid; justify-content: center
+        }
+        footer {
+            padding-bottom: 70px;
+        }
